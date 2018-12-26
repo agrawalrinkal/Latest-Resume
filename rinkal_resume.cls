@@ -76,6 +76,9 @@ Last Updated on
 % Section seperators command
 \newcommand{\sectionsep}[0]{\vspace{8pt}}
 
+% Small Section seperators command
+\newcommand{\smallsectionsep}[0]{\vspace{2pt}}
+
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}{\end{itemize}\vspace{-\topsep}}
 
